@@ -55,14 +55,14 @@ npm run dev
 
 <br>
 
-## HACTOBER FIESTA 2022 PORTFOLIO SETUP
+# HACTOBER FIESTA 2022 PORTFOLIO SETUP
 
-# Initial Setup
+## Initial Setup
 -  Sign up to 
 -  Have a photo of yours ready in 1:1 ratio. To make it in 1:1 ratio edit the photo and select the crop icon. From there select the square icon, this ensures your photo is in 1:1 ratio.
 -  Install [VsCode](https://code.visualstudio.com/download), [NodeJs](https://nodejs.org/en/download/), [Git](https://git-scm.com/downloads) and have an account in [Github](https://github.com/)
 
-# Cloning
+## Cloning
 - Create a folder wherever you wish.
 - Open VsCode and open a new terminal and open the folder you have created .
 - Type in the next set of commands. You can copy paste them for your convenience.
