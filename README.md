@@ -141,17 +141,37 @@ This will automatically push your commit to the remote repository, it may ask yo
   ```
   import ProfileImg from '../../public/<your_image_file_name>'
   ```
-- Goto line 34, Customize the Hero section 
-- Within templates folder create a copy of sample.html and change the name to `<your_github_username>.html` 
- If your username is `abc` then change the new file's name to `abc.html`.
-- Going to the url `localhost:5000/<github-username>` will now give you the sample card.
-- Make another pull request using the above given steps.
+- From line 34, Customize the Hero section 
+- After the changes are done, make another pull request using the above given steps.
 
 <br>
 
 ### PR 4 - Add Projects
-- Within templates folder create a copy of sample.html and change the name to `<your_github_username>.html` 
- If your username is `abc` then change the new file's name to `abc.html`.
+- Goto `component/<your_github_username>/EntryComponent.js`, Edit your project with your pygame project details
+  ```
+                      {/* Project 1 */}
+                    <Grid sm={12} md={5} className="flex justify-center">
+                        <Card css={{ width: "330px" }}>
+                        <Card.Header>
+                            <Text b> <Project_name> </Text>
+                        </Card.Header>
+                        <Card.Divider />
+                        <Card.Body css={{ py: "$10" }}>
+                            <Text>
+                                <Project description in one sentence>
+                            </Text>
+                        </Card.Body>
+                        <Card.Divider />
+                        <Card.Footer>
+                            <Row justify="flex-end">
+                                <Link href="<Project_repo_link>">
+                                    <Button size="sm" light color="primary">Link</Button>
+                                </Link>
+                            </Row>
+                        </Card.Footer>
+                        </Card>
+                    </Grid>
+  ```
 - Going to the url `localhost:5000/<github-username>` will now give you the sample card.
 - Make another pull request using the above given steps.
 
