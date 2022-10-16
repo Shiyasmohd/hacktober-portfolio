@@ -122,6 +122,14 @@ This will automatically push your commit to the remote repository, it may ask yo
 
 <br>
 
+### PR 2 - create card at "/github-username"
+- Within templates folder create a copy of sample.html and change the name to `<your_github_username>.html` 
+ If your username is `abc` then change the new file's name to `abc.html`.
+- Going to the url `localhost:5000/<github-username>` will now give you the sample card.
+- Make another pull request using the above given steps.
+
+<br>
+
 # WORKING YOUR PORTFOLIO
 - Once you have cloned the repository in VsCode, open the files icon on the left side in VsCode.
 - Click the "components" folder and copy paste the file "templete.js". You will see that another file "templete copy.js" has been created alongside the original file.
