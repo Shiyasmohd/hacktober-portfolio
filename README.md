@@ -55,6 +55,73 @@ npm run dev
 
 <br>
 
+## Tasks
+
+### PR 1 - feature on home page
+Open the file &namelist.html within templates folder, where the names of all the participants seen on the homepage of the website is given.
+Copy the relevant section of code as shown below and insert another record with your own details.
+```
+<a class="participant" href="/<github-username>">
+  <div>
+    <div class="name"> <your name> </div>
+    <div class="college"> <your college> </div>
+  </div>
+</a>
+```
+
+<br>
+
+### Intial Commit 
+You can check your change using the following command
+
+```
+ git status
+```
+this command will show you the changes that you have made and left untracked, you have to add these changes to the staging area.
+
+<br> 
+Now, you should add it to the staging area using the following command.
+
+```
+  git add .
+```
+`.` specifies to add all the chnges to the staging area.
+<br>
+Now that the changes are tracked or added to the staging area you should make a commit regarding that particular change using the following command in the terminal. 
+
+```
+  git commit -m "<commit message>" 
+```
+The `commit message` message should specify what is the change made for, it will result in well documentation of the project
+
+<br><br>
+
+### Pushing the commit
+
+Now that you have commited your changes you should push the changes to the remote git repository for that you can use the following command, given below
+
+```
+  git push -u origin main
+```
+This will automatically push your commit to the remote repository, it may ask your password / passphrase for authentication.
+
+
+<br><br>
+
+### Your Initial Pull Request(PR)
+- Push your changes to the github repository.
+- Go To Pull requests tab on github
+- Click on `New Pull Request` button. 
+- Make sure that head repository is your repository
+![Pull Request Head](https://github.com/dkowsikpai/card/blob/main/Screenshots/PR%20Head.png)
+- Make sure it is showing green tick mark
+- Press on `Create Pull Request` Button
+![Create PR](https://github.com/dkowsikpai/card/blob/main/Screenshots/Create%20PR.png)
+- Add necessary title and description
+- Hit `Create Pull Request` Button
+
+<br>
+
 # WORKING YOUR PORTFOLIO
 - Once you have cloned the repository in VsCode, open the files icon on the left side in VsCode.
 - Click the "components" folder and copy paste the file "templete.js". You will see that another file "templete copy.js" has been created alongside the original file.
