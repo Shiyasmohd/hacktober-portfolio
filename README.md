@@ -1,8 +1,9 @@
-# HACKTOBER FIESTA - 21
+# HACKTOBER FIESTA - 22
 
 ## Prerequisites
-- Sign up to [hacktoberfest2022](https://hacktoberfest.digitalocean.com/)
-- Have python and pip installed on your system
+- Sign up to [Hacktoberfest 2022](https://hacktoberfest.digitalocean.com/)
+- Have a photo of yours ready in 1:1 ratio. To make it in 1:1 ratio edit the photo and select the crop icon. From there select the square icon, this ensures your photo is in 1:1 ratio.
+-  Install [VsCode](https://code.visualstudio.com/download), [NodeJs](https://nodejs.org/en/download/), [Git](https://git-scm.com/downloads) and have an account in [Github](https://github.com/)
 
 <br>
 
