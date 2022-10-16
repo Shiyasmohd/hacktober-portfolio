@@ -122,7 +122,20 @@ This will automatically push your commit to the remote repository, it may ask yo
 
 <br>
 
-### PR 2 - create card at "/github-username"
+### PR 3 - Customize your Portfolio
+- Create a copy of the template folder insid the component folder and rename it as `<your_github_username>`
+- Inside the pages folder, create a copy of the `index.js` file and rename it as `<your_github_username>.js`
+- Rename your image as `<your_github_username>` and add to the public folder
+- Open ```/components/<your_github_username>/Navbar/Navbar.js```
+- Goto line no:50, replace the image with ```src=/<your_image_file_name>```
+- Within templates folder create a copy of sample.html and change the name to `<your_github_username>.html` 
+ If your username is `abc` then change the new file's name to `abc.html`.
+- Going to the url `localhost:5000/<github-username>` will now give you the sample card.
+- Make another pull request using the above given steps.
+
+<br>
+
+### PR 4 - Add Projects
 - Within templates folder create a copy of sample.html and change the name to `<your_github_username>.html` 
  If your username is `abc` then change the new file's name to `abc.html`.
 - Going to the url `localhost:5000/<github-username>` will now give you the sample card.
