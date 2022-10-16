@@ -142,7 +142,7 @@ This will automatically push your commit to the remote repository, it may ask yo
 
 <br>
 
-### PR 4 - Add Projects
+### PR 4 - Add pygame project to your project list
 - Go to `component/<your_github_username>/EntryComponent.js`, Edit your project with your pygame project details
 <br/>
 
