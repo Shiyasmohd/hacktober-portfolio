@@ -122,6 +122,8 @@ This will automatically push your commit to the remote repository, it may ask yo
 
 <br>
 
+
+
 ### PR 3 - Customize your Portfolio
 - Create a copy of the Template folder inside the component folder and rename it as `<your_github_username>`
 - Inside the pages folder, create a copy of the `index.js` file and rename it as `<your_github_username>.js`
@@ -160,7 +162,7 @@ This will automatically push your commit to the remote repository, it may ask yo
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                <Project description in one sentence>
+                               <Project description in one sentence> 
                             </Text>
                         </Card.Body>
                         <Card.Divider />
@@ -174,19 +176,8 @@ This will automatically push your commit to the remote repository, it may ask yo
                         </Card>
                     </Grid>
   ```
-- Going to the url `localhost:5000/<github-username>` will now give you the sample portfol.
-- Make another pull request using the above given steps.
+- Going to the url `localhost:3000/<github-username>` will now give you the sample portfolio.
+- And you're all done.
 
 <br>
 
-# WORKING YOUR PORTFOLIO
-- Once you have cloned the repository in VsCode, open the files icon on the left side in VsCode.
-- Click the "components" folder and copy paste the file "templete.js". You will see that another file "templete copy.js" has been created alongside the original file.
-- Rename "templete copy.js" to your "your name.js".
-- Now go ahead and copy paste your photo in the folder public of your already created folder. Also remember to rename your photo with your name. This is for ease of working
-- Back to VsCode. Click the folder in your name and select the script EntryComponent.js.
-- Now edit the line of code " import ProfileImg from '../../public/put the name of your image here.jpg' ".
-- Once this part is done reload [https://localhost:3000](https://localhost:3000) . You'll notice that the photo on the top right side is yours..
-- Now select the pages folder and select the SampleEntryComponent and rename the file to your name.
-- Edit this line " import SampleEntryComponent from "../components/your name(Name of the file in components folder)/EntryComponent"; "
-- And you're all done.
