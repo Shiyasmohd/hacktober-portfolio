@@ -129,13 +129,15 @@ This will automatically push your commit to the remote repository, it may ask yo
 - Open ```/components/<your_github_username>/Navbar/Navbar.js```
 - Goto line no:50, replace the image with ```src=/<your_image_file_name>```
 - Goto `pages/<your_github_username>.js`, replace the Template folder name with `<your_github_username>`
-<br/>
+    <br/>
+
   ```
   import SampleEntryComponent from "../components/<your_github_username>/EntryComponent";
   ```
 - Goto `component/<your_github_username>/EntryComponent.js`
 - Replace image file name with your `<your_image_file_name>` 
-<br/>
+    <br/>
+
   ```
   import ProfileImg from '../../public/<your_image_file_name>'
   ```
