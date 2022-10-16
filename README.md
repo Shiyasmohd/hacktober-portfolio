@@ -147,7 +147,9 @@ This will automatically push your commit to the remote repository, it may ask yo
 <br>
 
 ### PR 4 - Add Projects
-- Goto `component/<your_github_username>/EntryComponent.js`, Edit your project with your pygame project details
+- Go to `component/<your_github_username>/EntryComponent.js`, Edit your project with your pygame project details
+<br/>
+
   ```
                       {/* Project 1 */}
                     <Grid sm={12} md={5} className="flex justify-center">
@@ -172,7 +174,7 @@ This will automatically push your commit to the remote repository, it may ask yo
                         </Card>
                     </Grid>
   ```
-- Going to the url `localhost:5000/<github-username>` will now give you the sample card.
+- Going to the url `localhost:5000/<github-username>` will now give you the sample portfol.
 - Make another pull request using the above given steps.
 
 <br>
