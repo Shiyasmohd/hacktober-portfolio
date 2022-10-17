@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/Template.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/Shiyas.jpg'
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Shiyas")
 
     var i = 0;
     var speed = 100;
@@ -28,7 +28,7 @@ export default function EntryComponent(){
     return(
         <div className="">
 
-            {/* Navbar */}  
+            {/* Navbar */}
             <PortfolioNavbar/>
 
             {/* Hero Section */}
@@ -43,12 +43,10 @@ export default function EntryComponent(){
                         <h1 id="typeTxt" className="font-txt text-xl font-extrabold text-center"></h1>
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
-                        {/* Change Description Here */}
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        I&apos;m a Full Stack Web3 Developer currently at second year of graduation. I&apos;m working at Doge Capital as a developer.
+                        I have been a frontend developer for an year and for the past 6 months, I&apos;m into web3.
                         <br/><br/>
-                        {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript
+                        Tech Stacks : JavaScript,TypeScript, Solidity, Rust, NextJS, Firebase, Anchor, Hardhat
                     </p>
                 </div>
             </div>
@@ -64,18 +62,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Solana Twitter</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Tweet your tweets on Solana Blockchain
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/shiyasmohd/solana-twitter">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -87,18 +85,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Anime GIF Galley</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                An Anime GIF Gallery on Solana using Anchor Framework
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/shiyasmohd/anime-gif-gallery">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -106,22 +104,22 @@ export default function EntryComponent(){
                         </Card>
                     </Grid>
 
-                    {/* Project 3 */}
+                    {/* Project 1 */}
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>ETH Mint NFT</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Mint NFTs on Ethereum Blockchain
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Shiyasmohd/eth-mint-nft">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>

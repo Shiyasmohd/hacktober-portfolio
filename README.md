@@ -128,7 +128,7 @@ This will automatically push your commit to the remote repository, it may ask yo
     <br/>
 
   ```
-  import SampleEntryComponent from "../components/<your_github_username>/EntryComponent";
+  import EntryComponent from "../components/<your_github_username>/EntryComponent";
   ```
 - Goto `component/<your_github_username>/EntryComponent.js`
 - Replace image file name with your `<your_image_file_name>` 
